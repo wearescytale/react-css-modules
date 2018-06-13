@@ -36,7 +36,8 @@ export default (Component: Object, defaultStyles: Object, options: Object) => {
           writable: false
         });
 
-        this.props = props;
+        // Removed to fix this bug https://github.com/gajus/react-css-modules/issues/272
+        // this.props = props;
       } else {
         styles = {};
       }

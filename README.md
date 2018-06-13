@@ -6,6 +6,9 @@
 
 <img src='./.README/react-css-modules.png' height='150' />
 
+## Reason to fork
+Fixed this bug https://github.com/gajus/react-css-modules/issues/272 by removing the embedded styles
+
 React CSS Modules implement automatic mapping of CSS modules. Every CSS class is assigned a local-scoped identifier with a global unique name. CSS Modules enable a modular and reusable CSS!
 
 > ⚠️⚠️⚠️
